@@ -1,28 +1,29 @@
-package patterns;
+package Topic1_patterns;
 
 import java.util.Scanner;
 
-/*   j=1 2 3 4
-i = 1  1 2 3 4
-i = 2  1 2 3 4
-i = 3  1 2 3 4
-i = 4  1 2 3 4
+/*
+   j=  1 2 3 4
+i = 1  1
+i = 2  2 3
+i = 3  4 5 6
+i = 4  7 8 9 10
  */
-public class Pattern2 {
+public class Pattern7_HW {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int i = 1;
+        int count = 1;
         while (i <= n) {
             int j = 1;
-            while (j <= n) {
-                System.out.print(j);
+            while (j <= i) {
+                System.out.print(count + " ");
+                count++;
                 j++;
             }
             System.out.println();
             i++;
-
         }
     }
-
 }

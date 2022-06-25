@@ -1,25 +1,25 @@
-package patterns;
+package Topic1_patterns;
 
 import java.util.Scanner;
 
 /*
    j=  1 2 3
-i = 1  A
-i = 2  B C
-i = 3  C D E
-i = 4  D E F G
-
+i = 1  A B C
+i = 2  D E F
+i = 3  G H I
  */
-public class Pattern15 {
+public class Pattern11_HW {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int row = 1;
-        while (row<=n){
+        char st  ='A';
+        while(row<=n){
             int col = 1;
-            while(col<=row){
-                System.out.print((char)('A' + row + col - 2)+" ");
+            while (col<=n){
+                System.out.print(st +" ");
                 col++;
+                st++;
             }
             System.out.println();
             row++;
