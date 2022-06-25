@@ -3,28 +3,32 @@ package patterns;
 import java.util.Scanner;
 
 /*
-   j=  1 2 3
-i = 1  A B C
-i = 2  B C D
-i = 3  C D E
-ch = A
-formula = ch + i + j - 2
+   j=  1 2 3 4
+i = 1  D
+i = 2  C D
+i = 3  B C D
+i = 4  A B C D
+
+formula = 'A' + n - i + j - 1;
+or
+char st = 'A' + n - i;
+     st++
  */
-public class Pattern12 {
+public class Pattern16 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int row = 1;
-        char st = 'A';
-        while(row<=n){
+        while (row<=n){
             int col = 1;
-            while(col<=n){
-                System.out.print((char)(st + row + col - 2) + " ");
+            char start = (char )('A' + n - row);
+            while(col<=row){
+                System.out.print((start) + " ");
+                start++;
                 col++;
             }
             System.out.println();
             row++;
-
         }
     }
 }

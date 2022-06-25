@@ -17,7 +17,7 @@ public class Pattern8 {
         while (i <= n) {
             int j = 1;
             int count = i;
-            while (j <= i) {
+            while (j <= n) {
                 System.out.print(count + " ");
                 j++;
                 count++;
