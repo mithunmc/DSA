@@ -10,14 +10,15 @@ public class DecToBinary {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int answer = 0;
-        int i = 0;
-        while(n!=0){
-            int digit = n & 1;
-            answer = (digit * (int)Math.pow(10,i))+ answer;
-            n = n>>1;
-            i++;
-        }
-        System.out.println(answer);
 
+            int i = 0;
+            while (n != 0) {
+                int digit = n & 1;
+                answer = (digit * (int) Math.pow(10, i)) + answer;
+                n = n >> 1;
+                i++;
+            }
+            System.out.println(answer);
+        }
     }
-}
+
