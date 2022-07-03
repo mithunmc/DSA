@@ -7,7 +7,7 @@ public class SwitchCont {
         switch(i){
             case 10:
                 System.out.println(10);
-                continue;
+                break;
             default:
                 throw new IllegalStateException("Unexpected value: " + i);
         }
