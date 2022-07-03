@@ -1,4 +1,4 @@
-package Phase1.Topic1_patterns;
+package Phase1.Topic1_Patterns;
 /*
           j=   1 2 3
         i = 1  3 2 1

@@ -1,4 +1,4 @@
-package Phase1.Topic1_patterns;
+package Phase1.Topic1_Patterns;
 
 import java.util.Scanner;
 
@@ -9,18 +9,17 @@ i = 2  2 3
 i = 3  3 4 5
 i = 4  4 5 6 7
  */
-public class Pattern8 {
+public class Pattern8_HW {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int i = 1;
         while (i <= n) {
             int j = 1;
-            int count = i;
-            while (j <= n) {
-                System.out.print(count + " ");
+            while (j <= i) {
+                System.out.print((j + i - 1) + " ");
                 j++;
-                count++;
+
             }
             System.out.println();
             i++;

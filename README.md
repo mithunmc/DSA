@@ -5,17 +5,17 @@ This project is for placement help, where the entire project is divided into 3 p
 
 1. -  Basics of Java - 
                               
-                              a. Flowcharts 
-                              b. SetUp Installation                              
-                              c. Variables & Data types                              
-                              d. Conditionals                              
+                              a. Flowcharts (Done)
+                              b. SetUp Installationv (Done)                              
+                              c. Variables & Data types (Done)                             
+                              d. Conditionals  (Done)                            
                               
  2. - Loops and Functions - 
                                 
-                                a. While loop
-                                b. For Loop
-                                c. Patterns
-                                d. Functions                                
+                                a. While loop (Done)
+                                b. For Loop (Done)
+                                c. Patterns (Done)
+                                d. Functions (Done)                               
                                 
 3. - Arrays -
 

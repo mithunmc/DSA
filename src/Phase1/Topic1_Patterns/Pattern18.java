@@ -1,4 +1,4 @@
-package Phase1.Topic1_patterns;
+package Phase1.Topic1_Patterns;
 
 import java.util.Scanner;
 

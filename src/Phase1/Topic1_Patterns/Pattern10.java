@@ -1,15 +1,15 @@
-package Phase1.Topic1_patterns;
-/*
-   j=  1 2 3
-i = 1  A B C
-i = 2  A B C
-i = 3  A B C
-
- */
+package Phase1.Topic1_Patterns;
 
 import java.util.Scanner;
 
-public class Pattern11 {
+/*
+   j=  1 2 3
+i = 1  A A A
+i = 2  B B B
+i = 3  C C C
+n = 3
+ */
+public class Pattern10 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
@@ -17,7 +17,7 @@ public class Pattern11 {
         while (row <= n) {
             int col = 1;
             while (col <= n) {
-                System.out.print((char) ('A' + col - 1) + " ");
+                System.out.print((char) ('A' + row - 1) + " ");
                 col++;
             }
             System.out.println();
