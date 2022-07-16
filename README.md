@@ -19,8 +19,8 @@ This project is for placement help, where the entire project is divided into 3 p
                                 
 3. - Arrays -
 
-                   a. Intro to Arrays
-                   b. Searching and Sorting
+                   a. Intro to Arrays (Done)
+                   b. Searching and Sorting (inProgress)
                    c. Problem Solving (Sliding Window, 2Ptr, Sub Array etc )                   
                    
 4. - String and 2D Array -
