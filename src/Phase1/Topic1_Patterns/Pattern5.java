@@ -18,7 +18,7 @@ public class Pattern5 {
         while (i <= n) {
             int j = 1;
             while (j <= i) {
-                System.out.print("*" + " ");
+                System.out.print("*");
                 j++;
             }
             System.out.println();

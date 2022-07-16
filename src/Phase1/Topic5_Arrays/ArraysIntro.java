@@ -12,7 +12,7 @@ public class ArraysIntro {
     }
 
     private static void printArray(int[] number) {
-        for(int i = 0; i<15; i++){
+        for(int i = 0; i<number.length; i++){
             System.out.print(number[i]+" ");
         }
     }

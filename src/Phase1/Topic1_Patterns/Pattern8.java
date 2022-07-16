@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 /*
    j=  1 2 3 4
-i = 1  1
-i = 2  2 3
-i = 3  3 4 5
+i = 1  1 2 3 4
+i = 2  2 3 4 5
+i = 3  3 4 5 6
 i = 4  4 5 6 7
  */
 public class Pattern8 {
