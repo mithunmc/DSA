@@ -25,9 +25,9 @@ This project is for placement help, where the entire project is divided into 3 p
                    
 4. - String and 2D Array -
  
-                                a. Char Array
-                                b. String
-                                c. 2D Arrays                                
+                                a. Char Array (Done)
+                                b. String (Done)
+                                c. 2D Arrays (Done)                             
                                 
 5. - Maths for DSA - BitWise Operators, Prime No, HCF/LCM, SOE & lot more    
         
